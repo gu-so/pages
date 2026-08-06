@@ -7,7 +7,7 @@ documentation — hosted via GitHub Pages.
 
 Each app gets its own folder:
 
-- anchor-finder/
+- spot-finder/
   - privacy.html
 - another-app/
   - privacy.html
