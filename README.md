@@ -8,10 +8,9 @@ documentation — hosted via GitHub Pages.
 Each app gets its own folder:
 
 - spot-finder/
-  - privacy.html
-- another-app/
-  - privacy.html
-- index.html
+  - privacy.html → https://gu-so.github.io/pages/spot-finder/privacy.html
+- hytteyatzy/
+  - privacy.html → https://gu-so.github.io/pages/hytteyatzy/privacy.html
 
 ## Live site
 
