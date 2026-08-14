@@ -25,27 +25,33 @@
 <p class="updated">Last updated: August 2026</p>
 
 <p>
-  dB Meter estimates ambient sound level from the microphone. Readings are
-  uncalibrated estimates, not lab-grade measurements.
+  dB Meter estimates sound level using your phone’s microphone. This page explains
+  what data the app uses and how it is handled.
 </p>
 
 <h2>What we use</h2>
 <p>
-  The microphone is used while the meter is active to sample audio amplitude
-  on the device. Audio is not recorded to a file for upload, and is not sent
-  to any server.
+  dB Meter uses the microphone only while measurement is running, so it can compute
+  an approximate level on the device. Optional calibration trim is stored on the phone.
 </p>
 
 <h2>What stays on your phone</h2>
 <p>
-  dB Meter does not require an account. No analytics or advertising SDKs are
-  included. Mic samples are processed locally for the live level display.
+  dB Meter does not require an account. It does not upload audio or measurements to a
+  developer cloud service, and it does not use analytics or advertising SDKs.
 </p>
 
 <h2>Permissions</h2>
 <p>
-  Microphone permission is required for the meter to work. You can revoke it
-  in system settings at any time.
+  The app requests microphone access for measurement. You can deny the permission,
+  force-stop, or uninstall the app at any time.
+</p>
+
+<h2>Accuracy</h2>
+<p>
+  Phone microphones are not certified sound level meters. Readings are approximate
+  and can vary by device, case, and processing. The app is not intended for legal,
+  medical, or workplace compliance measurements.
 </p>
 
 <h2>Children</h2>
